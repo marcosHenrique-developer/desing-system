@@ -8,6 +8,7 @@
     "dev": "storybook dev",
     "build-vite": "tsc && vite build",
     "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages",
     "lint": "eslint src/**/*.ts* --fix",
     "lintsx": "eslint src/**/*.tsx* --fix",
     "preview": "vite preview",
@@ -15,6 +16,7 @@
   },
   "dependencies": {
     "@storybook/addon-a11y": "^7.6.7",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@ui/eslint-config": "*",
     "@ui/react": "*",
     "@ui/tokens": "*",
