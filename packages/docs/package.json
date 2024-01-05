@@ -1,0 +1,49 @@
+{
+  "name": "@ui/docs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev-vite": "vite",
+    "dev": "storybook dev",
+    "build-vite": "tsc && vite build",
+    "build": "storybook build",
+    "lint": "eslint src/**/*.ts* --fix",
+    "lintsx": "eslint src/**/*.tsx* --fix",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^7.6.7",
+    "@ui/eslint-config": "*",
+    "@ui/react": "*",
+    "@ui/tokens": "*",
+    "@ui/ts-config": "*",
+    "phosphor-react": "^1.4.1",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.6",
+    "@storybook/addon-interactions": "^7.6.6",
+    "@storybook/addon-links": "^7.6.6",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.6",
+    "@storybook/react": "^7.6.6",
+    "@storybook/react-vite": "^7.6.6",
+    "@storybook/test": "^7.6.6",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-storybook": "^0.6.15",
+    "storybook": "^7.6.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}
